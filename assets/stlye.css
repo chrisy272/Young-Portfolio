@@ -18,7 +18,7 @@ nav{
 }
 
 label.name{
-    color:rgb(255, 191, 108);
+    color:saddlebrown;
     font-size: 30px;
     line-height: 85px;
     padding: 100px 0px;
@@ -41,4 +41,17 @@ nav ul li a{
     color: saddlebrown;
     font-size: 17px;
     font-family: fantasy;
+    text-transform: uppercase;
 }
+
+ nav a:hover{
+    background-color: rgb(255, 215, 162);
+    transition: .5s;
+
+}
+
+ p{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
